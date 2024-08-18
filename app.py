@@ -4,7 +4,7 @@ import pickle as pk
 import streamlit as st
 
 # Load the pre-trained model
-model = pk.load(open('decision_tree_model.pkl', 'rb'))
+model = pk.load(open('model.pkl', 'rb'))
 
 # Header of the Web App
 st.header('Car Price Prediction ML Model')
